@@ -1,134 +1,134 @@
 [
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher_app_icon.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_app_icon.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher_app_icon.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_app_icon.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher_app_icon_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_app_icon_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher_app_icon_foreground.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_app_icon_foreground.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-anydpi-v26_ic_launcher_app_icon_round.xml.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_app_icon_round.xml"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher_app_icon_foreground.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_app_icon_foreground.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher_app_icon.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_app_icon.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher_app_icon.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_app_icon.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher_app_icon_foreground.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_app_icon_foreground.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher_app_icon_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_app_icon_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher_app_icon_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_app_icon_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher_app_icon_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_app_icon_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher_app_icon_foreground.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_app_icon_foreground.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher_app_icon_foreground.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_app_icon_foreground.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher_app_icon_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_app_icon_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-anydpi-v26_ic_launcher_app_icon.xml.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_app_icon.xml"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher_app_icon_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_app_icon_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\layout_general_custom_dialog_network_error.xml.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\layout\\general_custom_dialog_network_error.xml"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher_app_icon.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_app_icon.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher_app_icon_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_app_icon_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\layout_general_custom_dialog_network_error.xml.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\layout\\general_custom_dialog_network_error.xml"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher_app_icon_foreground.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_app_icon_foreground.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher_app_icon_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_app_icon_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher_app_icon_foreground.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_app_icon_foreground.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher_app_icon.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_app_icon.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher_app_icon.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_app_icon.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher_app_icon.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_app_icon.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-anydpi-v26_ic_launcher_app_icon_round.xml.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_app_icon_round.xml"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher_app_icon.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_app_icon.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\build\\generated\\res\\pngs\\app\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxxhdpi_ic_launcher_app_icon_foreground.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_app_icon_foreground.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-anydpi-v26_ic_launcher_app_icon.xml.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_app_icon.xml"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xxhdpi_ic_launcher_app_icon_foreground.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_app_icon_foreground.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher_app_icon_foreground.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_app_icon_foreground.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-xhdpi_ic_launcher_app_icon_round.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_app_icon_round.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\generated\\res\\pngs\\app\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-mdpi_ic_launcher_app_icon.webp.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_app_icon.webp"
     },
     {
-        "merged": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-hdpi_ic_launcher_app_icon_round.webp.flat",
-        "source": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_app_icon_round.webp"
+        "merged": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\res\\merged\\app\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Yzq\\Project\\webViewApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     }
 ]

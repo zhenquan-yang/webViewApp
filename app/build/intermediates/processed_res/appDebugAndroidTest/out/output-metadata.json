@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "icu.dclef.webview.test",
+  "applicationId": "icu.dclef.webapp.test",
   "variantName": "processAppDebugAndroidTestResources",
   "elements": [
     {

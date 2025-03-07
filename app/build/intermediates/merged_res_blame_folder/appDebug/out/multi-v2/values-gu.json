@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Yzq\\Project\\WebViewApp\\WebViewApp\\app\\build\\intermediates\\incremental\\mergeAppDebugResources\\merged.dir\\values-gu\\values-gu.xml",
+            "outputFile": "D:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\incremental\\mergeAppDebugResources\\merged.dir\\values-gu\\values-gu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ce7175a607f1aae5fbba536e8c002c1\\appcompat-1.2.0\\res\\values-gu\\values-gu.xml",

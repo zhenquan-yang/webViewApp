@@ -5,19 +5,25 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 30
+//    compileSdkVersion 30
     flavorDimensions "default"
 
+    compileSdkVersion 33
     defaultConfig {
-        applicationId "icu.dclef.webview"
         minSdkVersion 21
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 33
     }
+
+//    defaultConfig {
+//        applicationId "icu.dclef.webview"
+//        minSdkVersion 26
+//        versionCode 1
+//        versionName "1.0"
+//    }
 
     productFlavors {
         app {
-            buildConfigField "String", "URL", "\"https://test.wgsaas.ai?al=41765741&ea=23&de=13&channel=apk&fb_dynamic_pixel=1181151730237356&fb_token=EAAIKaTaxxikBOZC1Efc9BmvjArxiY7knZBrlHQu1AFerbALDeT1avZBc45lMefwu1w6d8sG8nRHj7iEJrFqZBCwZAjwSZB7ZC189Wx7M3MBUtyCrXrb4NeXy1kGzLvJvkQQh8g2NkBDcEEPmHhnxeko71BU0haIGyGntksNekBDSZAr7wFCRWoNJNBYsZBIj75xmP7AZDZD\""
+            buildConfigField "String", "URL", "\"https://www.luck7.game?al=42975099&ea=12&de=15&channel=apk&fb_dynamic_pixel=1181151730237356&fb_token=EAAIKaTaxxikBOZCltucrq2Tbu2iaqAVaURMZAqxsZAMnfLYYKlqgsbSGWvfz2XblbYHssDdEue0dd5uYe01bywGaI2KQNfxOpdzkWjYkuIoiVmAgfIQR3r7rrWRZCcllwanXGBF1GUNEAyYJtqYDv40EuLDZBL2ybvH2SBjQ9x9R9zPzq4sTGSX4jJrfnO4GNagZDZD\""
         }
 
 
