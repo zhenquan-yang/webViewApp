@@ -58,7 +58,7 @@ open class WebViewActivity : AppCompatActivity() {
         } else {
             imgv_network_error.visibility = View.GONE
             webView.visibility = View.VISIBLE
-            overlayView.visibility = View.VISIBLE
+            overlayView.visibility = View.GONE
             connectionLostAlert("退出", BuildConfig.URL)
         }
 
@@ -119,12 +119,12 @@ open class WebViewActivity : AppCompatActivity() {
             if (networkUtils.haveNetworkConnection(this@WebViewActivity)) {
                 imgv_network_error.visibility = View.GONE
                 webView.visibility = View.VISIBLE
-                overlayView.visibility = View.VISIBLE
+//                overlayView.visibility = View.VISIBLE
                 super.onPageStarted(view, url, favicon)
             } else {
                 webView.visibility = View.GONE
                 imgv_network_error.setVisibility(View.VISIBLE)
-                overlayView.visibility = View.VISIBLE
+//                overlayView.visibility = View.VISIBLE
                 connectionLostAlert("Quit", url)
             }
         }
@@ -160,7 +160,7 @@ open class WebViewActivity : AppCompatActivity() {
         override fun onPageFinished(view: WebView, url: String) {
             if (networkUtils.haveNetworkConnection(this@WebViewActivity)) {
                 webView.visibility = View.VISIBLE
-                overlayView.visibility = View.GONE
+//                overlayView.visibility = View.GONE
                 super.onPageFinished(view, url)
             }
         }
@@ -173,7 +173,7 @@ open class WebViewActivity : AppCompatActivity() {
             try {
                 webView.visibility = View.GONE
                 imgv_network_error.visibility = View.VISIBLE
-                overlayView.visibility = View.VISIBLE
+//                overlayView.visibility = View.VISIBLE
             } catch (e: Exception) {
                 e.printStackTrace()
             }
