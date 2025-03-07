@@ -119,12 +119,12 @@ open class WebViewActivity : AppCompatActivity() {
             if (networkUtils.haveNetworkConnection(this@WebViewActivity)) {
                 imgv_network_error.visibility = View.GONE
                 webView.visibility = View.VISIBLE
-//                overlayView.visibility = View.VISIBLE
+                overlayView.visibility = View.GONE
                 super.onPageStarted(view, url, favicon)
             } else {
                 webView.visibility = View.GONE
                 imgv_network_error.setVisibility(View.VISIBLE)
-//                overlayView.visibility = View.VISIBLE
+                overlayView.visibility = View.GONE
                 connectionLostAlert("Quit", url)
             }
         }
@@ -160,7 +160,7 @@ open class WebViewActivity : AppCompatActivity() {
         override fun onPageFinished(view: WebView, url: String) {
             if (networkUtils.haveNetworkConnection(this@WebViewActivity)) {
                 webView.visibility = View.VISIBLE
-//                overlayView.visibility = View.GONE
+                overlayView.visibility = View.GONE
                 super.onPageFinished(view, url)
             }
         }
@@ -171,9 +171,9 @@ open class WebViewActivity : AppCompatActivity() {
             error: WebResourceError
         ) {
             try {
-                webView.visibility = View.GONE
-                imgv_network_error.visibility = View.VISIBLE
-//                overlayView.visibility = View.VISIBLE
+                webView.visibility = View.VISIBLE
+                imgv_network_error.visibility = View.GONE
+                overlayView.visibility = View.GONE
             } catch (e: Exception) {
                 e.printStackTrace()
             }
