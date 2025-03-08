@@ -11,7 +11,9 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.os.Message
 import android.text.TextUtils
+import android.util.Log
 import android.view.View
 import android.webkit.*
 import android.widget.Toast
@@ -26,6 +28,8 @@ import icu.dclef.webview.util.NetworkChangeReceiver
 import icu.dclef.webview.util.NetworkUtils
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.general_custom_dialog_network_error.*
+
+import androidx.browser.customtabs.CustomTabsIntent
 
 
 open class WebViewActivity : AppCompatActivity() {
@@ -56,16 +60,11 @@ open class WebViewActivity : AppCompatActivity() {
         if (networkUtils.haveNetworkConnection(this@WebViewActivity)) {
             loadWeb(BuildConfig.URL)
         } else {
-            imgv_network_error.visibility = View.GONE
-            webView.visibility = View.VISIBLE
-            overlayView.visibility = View.GONE
             connectionLostAlert("退出", BuildConfig.URL)
         }
 
 
     }
-
-
 
 
     /**
@@ -89,6 +88,10 @@ open class WebViewActivity : AppCompatActivity() {
 //        val userAgent: String = webSettings.userAgentString //获取ua
 //        Log.i("TAG", "User Agent:$userAgent");  //日志打印
 //        webSettings.userAgentString="app" //自定义UA
+
+        webSettings.userAgentString =
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
+
         webView.webViewClient = myWebClient()
         webView.webChromeClient = MyWebChromeClient()
         webView.addJavascriptInterface(JavaScriptHandler(), "Your_Handler_NAME")//自定义js 可删除
@@ -117,14 +120,9 @@ open class WebViewActivity : AppCompatActivity() {
         @RequiresApi(Build.VERSION_CODES.M)
         override fun onPageStarted(view: WebView, url: String, favicon: Bitmap?) {
             if (networkUtils.haveNetworkConnection(this@WebViewActivity)) {
-                imgv_network_error.visibility = View.GONE
-                webView.visibility = View.VISIBLE
-                overlayView.visibility = View.GONE
+
                 super.onPageStarted(view, url, favicon)
             } else {
-                webView.visibility = View.GONE
-                imgv_network_error.setVisibility(View.VISIBLE)
-                overlayView.visibility = View.GONE
                 connectionLostAlert("Quit", url)
             }
         }
@@ -138,16 +136,15 @@ open class WebViewActivity : AppCompatActivity() {
 
             }
             try {
+                val url = request.url.toString()
 
-                if (request.url.toString().startsWith("http:") || request.url.toString().startsWith("https:")
-                //除本链接外其他链接全部跳转到游览器中
-//                if(request.url.toString().contains("https://github.com/dclef")
-                ) {
-                    view.loadUrl(request.url.toString())
+                // 保持原有的逻辑
+                if (url.startsWith("http:") || url.startsWith("https:")) {
+                    view.loadUrl(url)
                     return false
                 } else {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(request.url.toString()))
-                    startActivity(intent)
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                    view.context.startActivity(intent)
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
@@ -160,7 +157,6 @@ open class WebViewActivity : AppCompatActivity() {
         override fun onPageFinished(view: WebView, url: String) {
             if (networkUtils.haveNetworkConnection(this@WebViewActivity)) {
                 webView.visibility = View.VISIBLE
-                overlayView.visibility = View.GONE
                 super.onPageFinished(view, url)
             }
         }
@@ -171,9 +167,6 @@ open class WebViewActivity : AppCompatActivity() {
             error: WebResourceError
         ) {
             try {
-                webView.visibility = View.VISIBLE
-                imgv_network_error.visibility = View.GONE
-                overlayView.visibility = View.GONE
             } catch (e: Exception) {
                 e.printStackTrace()
             }

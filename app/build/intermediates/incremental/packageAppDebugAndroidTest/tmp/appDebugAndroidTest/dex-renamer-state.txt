@@ -1,4 +1,0 @@
-#Fri Mar 07 17:56:43 CST 2025
-base.0=D\:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\dex\\appDebugAndroidTest\\mergeProjectDexAppDebugAndroidTest\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

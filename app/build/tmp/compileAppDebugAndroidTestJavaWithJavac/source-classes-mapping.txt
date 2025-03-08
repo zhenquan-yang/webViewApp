@@ -1,2 +1,0 @@
-icu/dclef/webapp/test/BuildConfig.java
- icu.dclef.webapp.test.BuildConfig

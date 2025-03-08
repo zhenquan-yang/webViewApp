@@ -1,7 +1,0 @@
-#Fri Mar 07 18:00:30 CST 2025
-base.1=D\:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\dex\\appDebug\\mergeProjectDexAppDebug\\classes.dex
-path.1=classes.dex
-base.0=D\:\\Yzq\\Project\\webViewApp\\app\\build\\intermediates\\dex\\appDebug\\mergeExtDexAppDebug\\classes.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
-path.0=classes.dex

@@ -44,6 +44,16 @@
                         android:host="payrollplus.finpay.pk"
                         android:scheme="http" />
             </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.APP_BROWSER" />
+                <data
+                    android:scheme="你的scheme"
+                    android:host="你的host" />
+            </intent-filter>
+
         </activity>
 
         <receiver
