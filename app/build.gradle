@@ -5,25 +5,21 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-//    compileSdkVersion 30
     flavorDimensions "default"
 
     compileSdkVersion 33
     defaultConfig {
+        applicationId "icu.dclef.webview"  // 确保这里的包名与您的导入语句一致
         minSdkVersion 26
-        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
     }
 
-//    defaultConfig {
-//        applicationId "icu.dclef.webview"
-//        minSdkVersion 26
-//        versionCode 1
-//        versionName "1.0"
-//    }
 
     productFlavors {
         app {
-            buildConfigField "String", "URL", "\"https://test.wgsaas.ai?al=42975099&ea=12&de=15&channel=apk&fb_dynamic_pixel=1181151730237356&fb_token=EAAIKaTaxxikBOZCltucrq2Tbu2iaqAVaURMZAqxsZAMnfLYYKlqgsbSGWvfz2XblbYHssDdEue0dd5uYe01bywGaI2KQNfxOpdzkWjYkuIoiVmAgfIQR3r7rrWRZCcllwanXGBF1GUNEAyYJtqYDv40EuLDZBL2ybvH2SBjQ9x9R9zPzq4sTGSX4jJrfnO4GNagZDZD\""
+//            buildConfigField "String", "URL", "\"http://www.l7s3j9.com?al=42975099&ea=12&de=15&channel=apk&fb_dynamic_pixel=1181151730237356&fb_token=EAAIKaTaxxikBOZCltucrq2Tbu2iaqAVaURMZAqxsZAMnfLYYKlqgsbSGWvfz2XblbYHssDdEue0dd5uYe01bywGaI2KQNfxOpdzkWjYkuIoiVmAgfIQR3r7rrWRZCcllwanXGBF1GUNEAyYJtqYDv40EuLDZBL2ybvH2SBjQ9x9R9zPzq4sTGSX4jJrfnO4GNagZDZD\""
+            buildConfigField "String", "URL", "\"http://test.wgsaas.ai?al=41734627&ea=26&de=16&channel=apk&fb_dynamic_pixel=1181151730237356&fb_token=EAAIKaTaxxikBOZCltucrq2Tbu2iaqAVaURMZAqxsZAMnfLYYKlqgsbSGWvfz2XblbYHssDdEue0dd5uYe01bywGaI2KQNfxOpdzkWjYkuIoiVmAgfIQR3r7rrWRZCcllwanXGBF1GUNEAyYJtqYDv40EuLDZBL2ybvH2SBjQ9x9R9zPzq4sTGSX4jJrfnO4GNagZDZD\""
         }
 
 
@@ -53,5 +49,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
-    implementation "androidx.browser:browser:1.5.0"
+    implementation "androidx.browser:browser:1.5.0"  // 使用最新版本
 }

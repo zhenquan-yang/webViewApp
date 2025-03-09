@@ -11,9 +11,7 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.os.Message
 import android.text.TextUtils
-import android.util.Log
 import android.view.View
 import android.webkit.*
 import android.widget.Toast
@@ -28,8 +26,6 @@ import icu.dclef.webview.util.NetworkChangeReceiver
 import icu.dclef.webview.util.NetworkUtils
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.general_custom_dialog_network_error.*
-
-import androidx.browser.customtabs.CustomTabsIntent
 
 
 open class WebViewActivity : AppCompatActivity() {
