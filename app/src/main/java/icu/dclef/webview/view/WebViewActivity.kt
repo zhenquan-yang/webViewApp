@@ -18,6 +18,7 @@ import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDialog
+import androidx.browser.customtabs.CustomTabsIntent
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import icu.dclef.webapp.BuildConfig
 
@@ -133,6 +134,15 @@ open class WebViewActivity : AppCompatActivity() {
             }
             try {
                 val url = request.url.toString()
+
+                if(url.contains("accounts.google.com")) {
+                    val customTabsIntent = CustomTabsIntent.Builder()
+                        .setShowTitle(true)  // 显示网页标题
+                        .build()
+
+                    customTabsIntent.launchUrl(this@WebViewActivity, Uri.parse(url))
+                    return  true
+                }
 
                 // 保持原有的逻辑
                 if (url.startsWith("http:") || url.startsWith("https:")) {
